@@ -175,9 +175,9 @@ function Roles() {
                 <TableCell>
                     <p className="text-xs text-gray-600 dark:text-gray-400">{empleado.Estado}</p>
                 </TableCell>                
-                <TableCell>
-                  <Button layout="link" size="icon" aria-label="Edit" onClick={openModalVerDetalle}>
-                      <SearchIcon className="w-5 h-5" aria-hidden="true" />
+                <TableCell >
+                  <Button layout="link"  className='ml-6 mr-6 pr-5' size="icon" aria-label="Edit" onClick={openModalVerDetalle}>
+                      <SearchIcon className="w-5 h-5 ml-6" aria-hidden="true" />
                   </Button>
                 </TableCell>
                 <TableCell>
